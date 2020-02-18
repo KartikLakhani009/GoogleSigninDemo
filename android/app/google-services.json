@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "154069026389",
+    "firebase_url": "https://fir-96043.firebaseio.com",
+    "project_id": "fir-96043",
+    "storage_bucket": "fir-96043.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154069026389:android:26e4ded60dd9c47ac3b6dc",
+        "android_client_info": {
+          "package_name": "com.demonavigationv4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154069026389-417ogl03v5f2majumvb26iejs8a6u751.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.demonavigationv4",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "154069026389-4f26era2v6mqhq255mujcabchou6i31o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt94pVU6NduASKP6yPyoRfMyLvfGbM5vA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154069026389-4f26era2v6mqhq255mujcabchou6i31o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
