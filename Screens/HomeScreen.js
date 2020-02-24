@@ -13,6 +13,11 @@ const list = [
     name: 'Google Sign in Demo ',
     screen: 'GSigninD3',
   },
+  {
+    id: 103,
+    name: 'Facebook Sign in Demo ',
+    screen: 'FBSign',
+  },
 ];
 
 class HomeScreen extends Component {

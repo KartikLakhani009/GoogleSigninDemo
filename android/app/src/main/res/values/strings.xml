@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DemoNavigationV4</string>
+    <string name="facebook_app_id">157362928559045</string>
+    <string name="fb_login_protocol_scheme">fb157362928559045</string>
 </resources>

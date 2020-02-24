@@ -6,6 +6,7 @@ import HomeScreen from '../Screens/HomeScreen';
 import TDP from '../Screens/ThunkDemoP1';
 import GSigninD3 from '../Screens/GSingin3';
 import GwelScreenD3 from '../Screens/GWelcomeScreenD3';
+import FBSign from '../Screens/FBSigin1';
 
 const AppNavigator = createStackNavigator({
   Home: {
@@ -16,6 +17,9 @@ const AppNavigator = createStackNavigator({
   },
   GwelScreenD3: {
     screen: GwelScreenD3,
+  },
+  FBSign: {
+    screen: FBSign,
   },
 });
 
