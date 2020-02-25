@@ -36,6 +36,11 @@ target 'DemoNavigationV4' do
 
   pod 'react-native-fbsdk', :path => '../node_modules/react-native-fbsdk'
 
+  pod 'Firebase/Analytics'
+  
+  pod 'FBSDKLoginKit'
+  
+  
   target 'DemoNavigationV4Tests' do
     inherit! :search_paths
     # Pods for testing

@@ -61,6 +61,8 @@ class FBSign extends Component {
                   );
                   //   user = JSON.stringify(result);
                   user.setState({user_name: 'Welcome' + ' ' + result.name});
+                  user.setState({token: 'User Token: ' + ' ' + result.id});
+                  user.setState({profile_pic: result.picture.data.url});
                 }
               },
             );

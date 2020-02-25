@@ -11,6 +11,9 @@
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
 
+//  AppDelegate.m
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -20,6 +23,10 @@
                                                    moduleName:@"DemoNavigationV4"
                                             initialProperties:nil];
 
+  // You can skip this line if you have the latest version of the SDK installed
+  [[FBSDKApplicationDelegate sharedInstance] application:application
+                           didFinishLaunchingWithOptions:launchOptions];
+  
   rootView.backgroundColor = [[UIColor alloc] initWithRed:1.0f green:1.0f blue:1.0f alpha:1];
 
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
@@ -39,4 +46,13 @@
 #endif
 }
 
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+            options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+  
+  BOOL handled =  [[FBSDKApplicationDelegate sharedInstance] application:application openURL:url options:options];
+  // Add any custom logic here.
+  return handled;
+}
+  
 @end
